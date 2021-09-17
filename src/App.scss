@@ -1,0 +1,109 @@
+.editing {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &__button {
+    margin: 0 20px 0 20px;
+    background-color: rgb(49, 185, 140);
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 18px;
+    padding: 5px;
+    font-family: "Segoe UI", sans-serif;
+  }
+}
+
+.add-note-card {
+  width: 80%;
+  max-width: 500px;
+  margin: 0 auto;
+  border-radius: 5px;
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+  background-color: rgb(241, 240, 168);
+
+  h3 {
+    margin: 0;
+  }
+
+  label {
+    padding: 10px 0 5px 0;
+    color: rgb(110, 13, 13);
+    font-weight: 500;
+    width: 100%;
+  }
+
+  &__input {
+    width: 70%;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 5px;
+  }
+
+  &__button {
+    margin-top: 10px;
+  }
+}
+
+.button {
+  width: 150px;
+  border-radius: 5px;
+  border: 2px solid black;  
+  padding: 5px 15px 5px 15px;
+  font-family: "Segoe UI", sans-serif;
+  font-size: 15px;
+}
+
+.button--save {
+  background-color: rgb(132, 204, 7);
+}
+
+.button--delete {
+  background-color: rgb(204, 112, 7);
+}
+
+.tags {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+
+  &__item {
+    margin: 3px 10px 3px 10px;
+    background-color: aquamarine;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;    
+  }
+
+  &__item:hover {
+    transform: scale(1.05);
+  }
+
+  &__button {
+    background-color: aquamarine;
+    border: none;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 2px 3px 4px 3px;
+    font-family: "Segoe UI", sans-serif; 
+  }  
+}
+
+.notes {
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}

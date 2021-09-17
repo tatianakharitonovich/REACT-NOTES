@@ -1,0 +1,28 @@
+
+C:\Users\User\Documents\GitHub>cd C:\Users\User\Documents\GitHub\react-theory
+
+C:\Users\User\Documents\GitHub\react-theory>npm run start
+
+> react-theory@0.1.0 start
+> react-scripts start
+
+Compiled successfully!
+
+You can now view react-theory in the browser.
+
+  http://localhost:3000
+
+Note that the development build is not optimized.
+To create a production build, use npm run build.
+
+
+
+
+
+
+
+
+
+
+
+
