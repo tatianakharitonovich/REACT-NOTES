@@ -1,5 +1,7 @@
 # REACT-NOTES
 
+https://confident-cori-c70efe.netlify.app
+
 Разработано одностраничное приложение на React: текстовый редактор заметок с тегами.
 
 Действия:
